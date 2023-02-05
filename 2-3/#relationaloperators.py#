@@ -1,0 +1,2 @@
+It's also worth noting that the greater than and less than operators do work for strings as well, and they operatebased on sorting the strings alphabetically.
+print("b">"a")

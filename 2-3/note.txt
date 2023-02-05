@@ -1,0 +1,42 @@
+Operators: Specific, simple functions that act on primitive data types, like integers and strings.
+
+Typically, operators work on the most primitive types in programming languages: mathematical operators work on integers and floats, while logical operators work on booleans.
+
+- Logical Operators: Operators that perform logical operations, such as comparing relative values, checking equality, checking set membership, or evaluating combinations of other logical operators.
+
+- Relational Operators: Operators that check the relationships between multiple variables, such as checking if they are equal or if one is greater than another.
+
+The comparison is a logical operator, while the decision is the condition.
+
+- Numeric Comparison Operators: Operators that facilitate numeric comparison between values. Typically, these are 'greater than' (>), 'greater than or equal to' (>=), 'equal to' (==), 'less than' (<), and 'less than or equal to' (<=).
+
+Relational operators aren't just numeric comparisons though, we can compare non-numeric equality as well.
+
+- Set Operators: Check to see if a value is a member of a set of multiple values. Most often this comes up in strings and lists.
+
+With strings, we can check to see if a certain smaller string occurs inside a larger string. For example, "cde" is in the string "abcdefg", but "ijk" is not.
+
+With lists, we can check to see if a certain item is on our list. For example, if we had a list containing "grapes", "apples", and "oranges", then "apples" would be in that set, but "papaya" would not.
+
+Numeric Equality Comparisons
+Numeric Value Comparisons
+
+Non-Numeric Equality Comparisons
+
+It's also worth noting that the greater than and less than operators do work for strings as well, and they operatebased on sorting the strings alphabetically.
+
+Set Operators : The (in) operator checks to see if something is contained within a list of other things. So for example, it could checkto see if apples are in your shopping list.
+
+Boolean Operators: Operators like “and” and “or” that act on pairs of boolean (true or false) values, or that act on single boolean values, like “not”.
+
+And: An operator that acts on two boolean (true or false) values and evaluates to “true” if and only if both are true.
+
+Or: An operator that acts on two boolean (true or false) values and evaluates to “true” if and only if at least one is true.
+
+Not: An operator that acts on one boolean (true or false) value and evaluates to the opposite value (false becomes true, true becomes false).
+
+The commutative property also applies whenever we have multiple of the same operator
+
+More interestingly, logical expressions or logical operators are also distributive. A and (B or C) = (A and B)or(A and C)
+
+D Morgan's Law : not (A and B) = not A or not B
